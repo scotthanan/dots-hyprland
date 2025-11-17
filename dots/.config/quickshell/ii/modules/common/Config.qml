@@ -570,21 +570,20 @@ Singleton {
                     property list<string> linkKeywords: ["hentai", "porn", "sukebei", "hitomi.la", "rule34", "gelbooru", "fanbox", "dlsite"]
                 }
             }
-<<<<<<< HEAD:dots/.config/quickshell/ii/modules/common/Config.qml
 
             property JsonObject waffles: JsonObject {
                 // Animations on Windoes are kinda janky. Set the following to
-                // false will make (some) stuff also be like that for accuracy. 
+                // false will make (some) stuff also be like that for accuracy.
                 // Example: the right-click menu of the Start button
                 property bool smootherAnimations: true
                 property JsonObject bar: JsonObject {
                     property bool bottom: true
                     property bool leftAlignApps: false
                 }
-=======
+            }
+
             property JsonObject monitors: JsonObject {
                 property bool externalMonitorInhibit: false
->>>>>>> origin/ext-monitor-inhibit:.config/quickshell/ii/modules/common/Config.qml
             }
         }
     }
