@@ -56,6 +56,7 @@ ShellRoot {
         Cliphist.refresh()
         Wallpapers.load()
         Updates.load()
+        ExtMonitorInhibit.load()
     }
 
     // Load enabled stuff

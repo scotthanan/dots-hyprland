@@ -593,6 +593,7 @@ Singleton {
                     property list<string> linkKeywords: ["hentai", "porn", "sukebei", "hitomi.la", "rule34", "gelbooru", "fanbox", "dlsite"]
                 }
             }
+<<<<<<< HEAD:dots/.config/quickshell/ii/modules/common/Config.qml
 
             property JsonObject waffles: JsonObject {
                 // Some spots are kinda janky/awkward. Setting the following to
@@ -612,6 +613,9 @@ Singleton {
                 }
                 property JsonObject calendar: JsonObject {
                     property bool force2CharDayOfWeek: true
+                }
+                property JsonObject monitors: JsonObject {
+                    property bool externalMonitorInhibit: false
                 }
             }
         }
