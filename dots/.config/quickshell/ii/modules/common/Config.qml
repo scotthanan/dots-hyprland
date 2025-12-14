@@ -593,7 +593,9 @@ Singleton {
                     property list<string> linkKeywords: ["hentai", "porn", "sukebei", "hitomi.la", "rule34", "gelbooru", "fanbox", "dlsite"]
                 }
             }
-
+            property JsonObject monitors: JsonObject {
+                property bool externalMonitorInhibit: false
+            }
             property JsonObject waffles: JsonObject {
                 // Some spots are kinda janky/awkward. Setting the following to
                 // false will make (some) stuff also be like that for accuracy. 
@@ -612,9 +614,6 @@ Singleton {
                 }
                 property JsonObject calendar: JsonObject {
                     property bool force2CharDayOfWeek: true
-                }
-                property JsonObject monitors: JsonObject {
-                    property bool externalMonitorInhibit: false
                 }
             }
         }
